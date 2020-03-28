@@ -1,0 +1,6 @@
+{
+  "baseURL": "http://automationpractice.com/index.php",
+  "excelFilePath": "",
+  "LAUNCH_PAGE_TITLE" : "My Store",
+  "SIGNIN_PAGE_TITLE" : "Login - My Store"
+}
