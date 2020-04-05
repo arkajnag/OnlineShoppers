@@ -1,9 +1,11 @@
+import os
 import sys
 
 import allure
 import pytest
 
-sys.path.append("../")
+#sys.path.append("../")
+sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 from Pages.LaunchPage import launchPage
 
 @allure.epic("Regression Test - Online Shoppers")

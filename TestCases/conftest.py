@@ -1,10 +1,12 @@
+import os
 import sys
 import traceback
 
 import pytest
 from selenium import webdriver
 
-sys.path.append("../")
+#sys.path.append("../")
+sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 from Utility.CommonUtility import commonUtility
 
 
