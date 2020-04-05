@@ -13,7 +13,7 @@ from Utility.CommonUtility import commonUtility
 @pytest.fixture(scope="class")
 def setup(request):
     try:
-        driver = webdriver.Firefox(executable_path='../Resources/geckodriver.exe')
+        driver = webdriver.Firefox(executable_path='Resources/geckodriver.exe')
         driver.maximize_window()
         driver.implicitly_wait(15)
         driver.set_page_load_timeout(20)
